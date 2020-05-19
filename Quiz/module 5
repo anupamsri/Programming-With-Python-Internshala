@@ -1,0 +1,140 @@
+Score: 89%
+
+No. of questions: 10Correct answer: 8Incorrect answer: 2
+Show incorrect attempt only 
+
+Question 1 1 Mark
+Which of the following statements is true with respect to SQL?
+
+A
+Object oriented language
+B
+Procedure oriented language
+C
+Imperative language
+D
+Declarative language
+Correct Answer: D. Declarative language
+
+Question 2 2 Marks
+What is a cursor in the context of database programming?
+
+A
+It is an indicator showing the current position for user interaction.
+B
+It acts as a handle for a given SQL query using which records are traversed.
+C
+It stores a list of rows in a table.
+Correct Answer: B. It acts as a handle for a given SQL query using which records are traversed.
+
+Question 3 3 marks
+In the following code snippet, what is the connection object?
+import sqlite3
+MySchool=sqlite3.connect('schooltest.db')
+
+A
+sqlite3
+B
+MySchool
+C
+connect()
+D
+schooltest.db
+Correct Answer: B. MySchool
+
+Question 4 1 Mark
+Which of the following is not a RDBMS software?
+
+A
+MS Excel
+B
+DB2
+C
+MS Access
+D
+Oracle
+Correct Answer: A. MS Excel
+
+Question 5 2 Marks
+Which of the following statements selects all the columns in the table Internshala?
+
+A
+SELECT ? Internshala
+B
+SELECT [columns] FROM Internshala
+C
+SELECT * FROM Internshala
+D
+SELECT all FROM Internshala
+Correct Answer: C. SELECT * FROM Internshala
+
+Question 6 3 marks
+Given the following table, which column is the most ideal primary key?
+
+
+A
+Name
+B
+House
+C
+Mobile
+Correct Answer: C. Mobile
+
+Question 7 1 Mark
+Which of the following statements is not true with respect to relational database?
+
+A
+Relational database integrates data files
+B
+It ensures data integrity
+C
+Relational database consists of rows and columns
+D
+Relational database removes data redundancy
+Correct Answer: C. Relational database consists of rows and columns
+
+Question 8 2 Marks
+Which method is used to fetch all the remaining records in the form of a list of tuples?
+
+A
+fetchall()
+B
+fetchone()
+C
+select()
+D
+execute()
+Correct Answer: A. fetchall()
+
+Question 9 3 marks
+Given the following tables, what is the ideal foreign key in the Marks table for the Students table?
+
+
+A
+Roll-No
+B
+Name
+C
+House
+Correct Answer: A. Roll-No
+
+Question 10 1 Mark
+Which of the following statements will successfully create a table called Internshala?
+
+A
+CREATE Internshala TABLE COLUMNS(
+Name TEXT (20), 
+Role TEXT, 
+Crazy INTEGER
+);
+B
+CREATE TABLE Internshala (
+Name TEXT (20), 
+Role TEXT, 
+Crazy INTEGER 
+);
+Correct Answer: B. CREATE TABLE Internshala (
+Name TEXT (20), 
+Role TEXT, 
+Crazy INTEGER 
+);

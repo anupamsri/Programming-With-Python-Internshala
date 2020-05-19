@@ -1,0 +1,124 @@
+Score: 84%
+
+No. of questions: 10Correct answer: 9Incorrect answer: 1
+Show incorrect attempt only 
+
+Question 1 1 Mark
+In PyQt terminology, what is a signal?
+
+A
+It is an event handler function.
+B
+It is the event occurring on a widget
+C
+It is the response emitted by widget when an event occurs
+Correct Answer: C. It is the response emitted by widget when an event occurs
+
+Question 2 2 Marks
+What is not true about form layout?
+
+A
+Widgets can be arranged in three columns
+B
+Each widget has either LabelRole or FieldRole
+C
+Widgets in first column assume LabelRole
+D
+Form layout can be nested inside a Box layout
+Correct Answer: A. Widgets can be arranged in three columns
+
+Question 3 3 marks
+The correct method to add child layout is:
+
+A
+setLayout()
+B
+addLayout()
+C
+addWidget()
+Correct Answer: B. addLayout()
+
+Question 4 1 Mark
+What is the purpose of the pyuic utility?
+
+A
+Converts designer file to .ui file
+B
+Translates the html into Python script
+C
+Converts a ui file to a py file
+Correct Answer: C. Converts a ui file to a py file
+
+Question 5 2 Marks
+Which of the following is the base class for all GUI widgets in PyQt library?
+
+A
+QApplication
+B
+QObject
+C
+QMainWindow
+D
+QWidget
+Correct Answer: D. QWidget
+
+Question 6 3 marks
+Which of the following is not a GUI toolkit?
+
+A
+Windows operating system
+B
+GTK+
+C
+Qt Framework
+D
+WxWidgets
+Correct Answer: A. Windows operating system
+
+Question 7 1 Mark
+Indicate whether the following statement is True or False.
+MSDOS is a GUI based operating system
+
+A
+True
+B
+False
+Correct Answer: B. False
+
+Question 8 2 Marks
+Which of the following statements is not true about a QLabel object?
+
+A
+QLabel cannot be used to display HTML
+B
+QLabel can respond to events
+C
+QLabel displays text which cannot be edited
+D
+QLabel can display an image
+Correct Answer: A. QLabel cannot be used to display HTML
+
+Question 9 3 marks
+Which of the following widgets would you use on a form for indicating the gender?
+Gender Male | Female
+
+A
+Checkbox
+B
+Radio button
+C
+Push button
+D
+Label
+Correct Answer: B. Radio button
+
+Question 10 1 Mark
+What is the purpose of the exec() method of the QApplication class?
+
+A
+Shows the window
+B
+Starts event loop
+C
+Executes python script
+Correct Answer: B. Starts event loop

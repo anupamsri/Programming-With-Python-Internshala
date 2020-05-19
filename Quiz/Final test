@@ -1,0 +1,403 @@
+Score: 92%
+
+No. of questions: 30Correct answer: 27Incorrect answer: 3
+Show incorrect attempt only 
+
+Question 1 1 Mark
+Which of the following is a feature of object oriented programming?
+
+A
+Data encapsulation
+B
+Inheritance
+C
+Polymorphism
+D
+All of the above
+Correct Answer: D. All of the above
+
+Question 2 2 Marks
+What is the purpose of the method items() when used with a dictionary?
+
+A
+Returns a list of tuples
+B
+Returns a tuple of lists
+C
+Returns a tuple of tuples
+D
+Returns a list of lists
+Correct Answer: A. Returns a list of tuples
+
+Question 3 3 marks
+Given the following assignments, what is the value of the variable, b? 
+
+>>> a=4
+>>> b=a
+>>> a="Internshala"
+>>> b
+
+A
+4
+B
+Internshala
+C
+a
+D
+You will get an error
+Correct Answer: A. 4
+
+Question 4 1 Mark
+Is this statement true or false?
+
+A list object can contain a tuple as one of the items.
+
+A
+True
+B
+False
+Correct Answer: A. True
+
+Question 5 2 Marks
+In the following list, what is the result of using the function, sort()?
+
+['one', 'four', 'three', 'two']
+
+A
+['four', 'three', 'two', 'one']
+B
+['four', 'one', 'three', 'two']
+C
+['one', 'two', 'three', 'four']
+Correct Answer: B. ['four', 'one', 'three', 'two']
+
+Question 6 3 marks
+What is the output of the following code snippet?
+
+def func(word, num = 1):
+     print(word * num)
+
+func('Pokemon')
+func('Go', 3)
+
+A
+Pokemon
+Go
+B
+Pokemon 
+Go3
+C
+Pokemon 
+GoGoGo
+D
+Error
+Correct Answer: C. Pokemon 
+GoGoGo
+
+Question 7 1 Mark
+Which keyword is used to define a class in Python program?
+
+A
+def
+B
+init
+C
+class
+D
+None of the above
+Correct Answer: C. class
+
+Question 8 2 Marks
+Which of the following statements is true about the functions, index() and find()?
+
+A
+Both give the position of the first occurrence of the substring.
+B
+While index() returns the first occurrence of the substring, find() returns the last occurrence.
+C
+Both functions return the number of times a substring appears.
+Correct Answer: A. Both give the position of the first occurrence of the substring.
+
+Question 9 3 marks
+What is the purpose of the clear() method in a dictionary?
+
+A
+Removes the string items from the dictionary.
+B
+Removes the dictionary from the memory.
+C
+Removes all the key-value pairs from the dictionary while retaining the object.
+D
+Removes all the values from the dictionary while retaining the keys.
+Correct Answer: C. Removes all the key-value pairs from the dictionary while retaining the object.
+
+Question 10 1 Mark
+What is the result of the following statements? 
+
+>>> T1=([1,2,3],4,5)
+>>>3 in T1
+
+A
+Result will be, 'True'.
+B
+Result will be, 'False'.
+Correct Answer: B. Result will be, 'False'.
+
+Question 11 2 Marks
+Execution of a GUI based application is:
+
+A
+Sequential
+B
+Object oriented
+C
+Procedure oriented
+D
+Event driven
+Correct Answer: D. Event driven
+
+Question 12 3 marks
+What is the output of the following code snippet:
+import math
+math.choice(6,7,8,9)
+
+A
+An integer except 6,7,8 or 9
+B
+Either 6,7,8 or 9
+C
+Error
+Correct Answer: C. Error
+
+Question 13 1 Mark
+Identify the correct data type. 
+
+03.00
+
+A
+Integer
+B
+Complex
+C
+Float
+D
+String
+Correct Answer: C. Float
+
+Question 14 2 Marks
+Which of the following Python objects is not iterable?
+
+A
+String
+B
+Dictionary
+C
+Number
+D
+Tuple
+Correct Answer: C. Number
+
+Question 15 3 marks
+Which of the following is an invalid integer object in Python?
+
+A
+0o123
+B
+123
+C
+0123
+D
+0x123
+Correct Answer: C. 0123
+
+Question 16 1 Mark
+What are the values returned by expressions using comparison operators?
+
+A
+True or False
+B
+Yes or No
+C
+1 or 0
+D
+Greater than, Less than
+Correct Answer: A. True or False
+
+Question 17 2 Marks
+Which of the following statements is used to capture exceptions in Python?
+
+A
+try:
+B
+if:
+C
+else:
+D
+except:
+Correct Answer: A. try:
+
+Question 18 3 marks
+Consider the dictionary, years={1995:'Java', 1972:'C', 1994:'Python'}. Will both the following expressions return the same result? 
+
+>>>min(years) 
+>>>min(years.keys())
+
+A
+Yes, both expressions will return the same result.
+B
+No, the result from both expressions will be different.
+Correct Answer: A. Yes, both expressions will return the same result.
+
+Question 19 1 Mark
+What is wrong with the following list?
+buckettuple=[Get a tattoo, Try a new hair colour, share a meal with a stranger, learn salsa, learn pottery]
+
+A
+The items should have been enclosed in round brackets.
+B
+The identifier of the tuple should not contain the word 'tuple'.
+C
+The items should be enclosed in quotes.
+D
+All the letters in the string should be in the same case.
+Correct Answer: C. The items should be enclosed in quotes.
+
+Question 20 2 Marks
+What is the purpose of the 'break' statement?
+
+A
+To terminate a loop
+B
+To restart a loop
+C
+To create an infinite loop
+D
+To skip the following statement and restart the loop
+Correct Answer: A. To terminate a loop
+
+Question 21 3 marks
+Given the following dictionary object, what is the correct syntax for modifying the value of the key, "Twitter" to 280? 
+
+smedia={"Twitter": 140, "Facebook": "status", "Instagram": "photo", "Snapchat": "message", "Linkedin": "work"}
+
+A
+>>>smedia["Twitter"]=280
+B
+>>>smedia[140:280]
+C
+>>>smedia.get("Twitter") >>>"Twitter":280
+D
+>>>{"Twitter": 280}
+Correct Answer: A. >>>smedia["Twitter"]=280
+
+Question 22 1 Mark
+What is the correct method to delete a key-value pair in a dictionary?
+
+A
+del operator
+B
+pop()
+C
+Either del operator or pop() can be used
+Correct Answer: C. Either del operator or pop() can be used
+
+Question 23 2 Marks
+If L1=[[1,2],[3,4]] is a list, which of the following statements will return the value, True?
+
+A
+3 in L1
+B
+[3,4] not in L1
+C
+[3,4] in L1
+Correct Answer: C. [3,4] in L1
+
+Question 24 3 marks
+Which of the following values is an output of the statement: 
+
+random.randint(80,100)
+
+A
+87.55
+B
+80
+C
+101
+Correct Answer: B. 80
+
+Question 25 1 Mark
+Is this statement true or false?
+
+The variable name, _books is a valid name.
+
+A
+True
+B
+False
+Correct Answer: A. True
+
+Question 26 2 Marks
+Is the following statement true or false? 
+
+It is mandatory to have return as last statement in function block.
+
+A
+True
+B
+False
+Correct Answer: B. False
+
+Question 27 3 marks
+What is not true about class attribute?
+
+A
+It is defined in __init__() method.
+B
+Its definition is not present inside any method
+C
+It is accessible by name of class
+D
+All options above are true
+Correct Answer: A. It is defined in __init__() method.
+
+Question 28 1 Mark
+By default, what is the index from which the range() function generates a sequence of numbers?
+
+A
+0
+B
+1
+C
+2
+D
+None of these.
+Correct Answer: A. 0
+
+Question 29 2 Marks
+When the following code was executed, the record for Sherlock was inserted but the record for Watson was not inserted. What is the reason for this?
+
+
+A
+Because the changes were already committed using the commit() method.
+B
+Because the database connection was already closed using the close() method.
+C
+Because the StudentID for Sherlock is 52, which comes after the studentID for Watson.
+Correct Answer: B. Because the database connection was already closed using the close() method.
+
+Question 30 3 marks
+What is output of the following statements? 
+
+>>> L1=[1,2,3,4]
+>>> L2=[1,1,1]
+>>> print(len(L1+L2))
+
+A
+7
+B
+13
+C
+5
+D
+Error
+Correct Answer: A. 7

@@ -1,0 +1,200 @@
+Score: 90%
+
+No. of questions: 15Correct answer: 14Incorrect answer: 1
+Show incorrect attempt only 
+
+Question 1 1 Mark
+Which of the following statements best describe a dictionary item in Python?
+
+A
+A dictionary is a sequence of key-value pairs
+B
+A dictionary is an indexed collection of key-value pairs.
+C
+A dictionary is an unordered collection of key-value pairs
+Correct Answer: C. A dictionary is an unordered collection of key-value pairs
+
+Question 2 2 Marks
+Which function should be used to change 'how are you?' to 'How Are You?' ?
+
+A
+capitalize()
+B
+title()
+C
+lower()
+D
+upper()
+Correct Answer: B. title()
+
+Question 3 3 marks
+What is the output of the following statements? 
+
+>>> a=3//2
+>>> b=-3//2
+>>> a-b
+
+A
+2
+B
+3
+C
+0
+D
+Error
+Correct Answer: B. 3
+
+Question 4 1 Mark
+Which of the following objects is not a valid declaration for dictionary?
+
+A
+D1={(1,2):10}
+B
+D1={[1,2]:10}
+C
+D1={len([1,2]):10}
+Correct Answer: B. D1={[1,2]:10}
+
+Question 5 2 Marks
+Which of the following will result in True?
+
+A
+'0x12'.isdigit()
+B
+'12.0'.isdigit()
+C
+'012'.isdigit()
+D
+'1.2e01'.isdigit()
+Correct Answer: C. '012'.isdigit()
+
+Question 6 3 marks
+What is the output of the following statements? 
+
+>>>a=60
+>>>b=70
+>>>average=(a+b)/2
+>>>average
+
+A
+65
+B
+65.0
+C
+065
+D
+65 +0i
+Correct Answer: B. 65.0
+
+Question 7 1 Mark
+Identify the correct data type. 
+
+["Joey", "Rachael", 2, 6, 5+2j]
+
+A
+List
+B
+String
+C
+Dictionary
+D
+Float
+Correct Answer: A. List
+
+Question 8 2 Marks
+After the following statements are executed in Python, what is the resultant value of L1? 
+
+>>> L1=['Python', 'Java', 'C++'] 
+>>> L1.insert(len(L1),'SQL')
+
+A
+['Python', 'Java', 'C++', 'SQL']
+B
+['SQL', 'Python', 'Java', 'C++']
+C
+['Python', 'SQL', 'Java', 'C++']
+D
+['Python', 'Java', 'SQL', 'C++']
+Correct Answer: A. ['Python', 'Java', 'C++', 'SQL']
+
+Question 9 3 marks
+Which of the following results is correct?
+
+A
+>>>15%6
+2
+B
+>>>15/6
+2
+C
+>>>15//6
+2
+Correct Answer: C. >>>15//6
+2
+
+Question 10 1 Mark
+A variable called Team is assigned the value Sri Lanka . It is possible to re-assign the value 8 to the same variable. 
+
+
+A
+True
+B
+False
+Correct Answer: A. True
+
+Question 11 2 Marks
+What will be result of following expression? 
+
+'INTERNSHALA'.lower().isupper()
+
+A
+Result will be, 'True'.
+B
+Result will be, 'False'.
+Correct Answer: B. Result will be, 'False'.
+
+Question 12 3 marks
+Which of the following conversions can be done using the int() function?
+
+A
+Integer to Float
+B
+Hexadecimal to integer
+C
+Integer to binary
+Correct Answer: B. Hexadecimal to integer
+
+Question 13 1 Mark
+Is this statement true or false?
+
+The variable name, 3score is a valid name.
+
+A
+True
+B
+False
+Correct Answer: B. False
+
+Question 14 2 Marks
+Which of following statements will result in an error?
+
+A
+tuple('1,2')
+B
+tuple((1,2))
+C
+tuple([1,2])
+D
+tuple(1,2)
+Correct Answer: D. tuple(1,2)
+
+Question 15 3 marks
+What is the result of the following expression?
+
+‘rain’ in ‘train’
+
+A
+Result is, True
+B
+Result is, False
+Correct Answer: A. Result is, True

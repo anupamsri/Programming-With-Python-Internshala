@@ -1,0 +1,203 @@
+Score: 57%
+
+No. of questions: 15Correct answer: 9Incorrect answer: 6
+Show incorrect attempt only 
+
+Question 1 1 Mark
+Which of the following is not a procedure oriented language?
+
+A
+C
+B
+FORTRAN
+C
+Java
+D
+PASCAL
+Correct Answer: C. Java
+
+Question 2 2 Marks
+Choose incorrect option.
+
+A
+Class method is defined with @classmethod decorator
+B
+Class method is defined inside a class
+C
+Class method can access only class attributes
+D
+Class method has one argument called self
+Correct Answer: D. Class method has one argument called self
+
+Question 3 3 marks
+Which library function shows list of magic methods inherited from object class?
+
+A
+str()
+B
+dir()
+C
+magic()
+D
+None of the above
+Correct Answer: B. dir()
+
+Question 4 1 Mark
+In object oriented programming methodology, object is
+
+A
+Definition of class
+B
+Instance of class
+C
+Both a and b
+D
+None of the above
+Correct Answer: B. Instance of class
+
+Question 5 2 Marks
+Instance variables and methods in Python class are:
+
+A
+Public by default
+B
+Private by default
+C
+Protected by default
+D
+These terms are not applicable in python.
+Correct Answer: A. Public by default
+
+Question 6 3 marks
+class book:
+    def __init__(self):
+        self.name="Python Programming"
+        self.price=200
+b1=book()
+
+Based on the above, which of the following statements is correct?
+
+A
+print (b1.price)
+B
+print (book.__price)
+C
+print(_book.__price)
+D
+print(b1._book__price)
+Correct Answer: A. print (b1.price)
+
+Question 7 1 Mark
+Mechanism of designing a new class based on one or more existing classes is called
+
+A
+Overriding
+B
+Inheritance
+C
+Polymorphism
+D
+None of these
+Correct Answer: B. Inheritance
+
+Question 8 2 Marks
+What is not true about overriding?
+
+A
+Overriding can occur in case of inheritance of classes.
+B
+It is a process of introducing new method in inherited class
+C
+It is a process of redefining inherited method in child class
+D
+It is not mandatory to override a base class method in inherited class
+Correct Answer: B. It is a process of introducing new method in inherited class
+
+Question 9 3 marks
+In order to overload == operator, which magic method must be overridden?
+
+A
+__comp__()
+B
+__eq__()
+C
+__equal__()
+D
+__ne__()
+Correct Answer: B. __eq__()
+
+Question 10 1 Mark
+To overload an operator, corresponding magic method should be
+
+A
+Inherited
+B
+Overridden
+C
+Overloaded
+Correct Answer: B. Overridden
+
+Question 11 2 Marks
+What is self?
+
+A
+It is a variable.
+B
+It is a class attribute.
+C
+It is reference to object which calls an instance method.
+D
+It is a built-in function in python
+Correct Answer: C. It is reference to object which calls an instance method.
+
+Question 12 3 marks
+The __add__() method
+
+A
+Returns addition of two numbers
+B
+Overloads + operator
+C
+Should be overridden to overload + operator
+D
+None of the above
+Correct Answer: C. Should be overridden to overload + operator
+
+Question 13 1 Mark
+Which of the following is the correct syntax of inheritance?
+
+A
+class derived(class base):
+B
+class derived(base):
+C
+def class derived(base):
+D
+None of the above
+Correct Answer: B. class derived(base):
+
+Question 14 2 Marks
+What is not true about a getter method?
+
+A
+Retrieves value of instance variable
+B
+Prints value of instance variable
+C
+Its name starts with ‘get’
+D
+It is an instance method
+Correct Answer: C. Its name starts with ‘get’
+
+Question 15 3 marks
+What is not true about overriding in Python?
+
+A
+Redefining a base class method in inherited class is called method overriding
+B
+Overriding is essential feature of object oriented language.
+C
+Overridden method must have same number of arguments as base class method of same name.
+D
+All the above statements are true.
+Correct Answer: C. Overridden method must have same number of arguments as base class method of same name.

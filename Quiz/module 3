@@ -1,0 +1,245 @@
+Score: 90%
+
+No. of questions: 15Correct answer: 14Incorrect answer: 1
+Show incorrect attempt only 
+
+Question 1 1 Mark
+Identify the mode that allows us to process the lines of code one at a time.
+
+A
+Interactive Mode
+B
+Truncate Mode
+C
+Scripting Mode
+D
+Execution Mode
+Correct Answer: A. Interactive Mode
+
+Question 2 2 Marks
+What is the output of the following code snippet? 
+
+for x in range(4):
+    print(x) 
+
+A
+1
+2
+3
+4
+B
+0
+1
+2
+3
+C
+4
+4
+4
+4
+Correct Answer: B. 0
+1
+2
+3
+
+Question 3 3 marks
+Which of the following expressions is the same as math.exp(x)?
+
+A
+x*x
+B
+x**x
+C
+math.e**x
+D
+e**x
+Correct Answer: C. math.e**x
+
+Question 4 1 Mark
+Which of the following statements is true about the elif keyword?
+
+A
+It provides a convenient way to check one possibility out of several alternatives.
+B
+All indented blocks have the same indent level.
+C
+The else block is executed only if all other expressions are false.
+D
+All these statements are true.
+Correct Answer: D. All these statements are true.
+
+Question 5 2 Marks
+What is the correct sequence of the parameters in the range() function?
+
+A
+Start, Step, Stop
+B
+Start, Stop, Step
+C
+Step, Start, Stop
+Correct Answer: B. Start, Stop, Step
+
+Question 6 3 marks
+What is the correct term for the arguments, x and y in the following function?
+
+def test( x, y ):
+     if x < y:
+    return x
+return y
+
+print(maxof(12, 19))
+
+A
+Actual parameters
+B
+Formal parameters
+C
+Real parameters
+Correct Answer: B. Formal parameters
+
+Question 7 1 Mark
+What is the output of the following statements?
+
+x=10
+y=20
+x>y
+
+A
+True
+B
+False
+Correct Answer: B. False
+
+Question 8 2 Marks
+Which of following statements is incorrect?
+
+A
+It is necessary to use ‘else’ whenever ‘if’ is used in a program.
+B
+All statements in a block have the same indent.
+C
+An indented block is always started after a colon[:] .
+D
+All statements are true.
+Correct Answer: A. It is necessary to use ‘else’ whenever ‘if’ is used in a program.
+
+Question 9 3 marks
+Which of the following function headers is correct?
+
+A
+def test(a=5,b,c):
+B
+def test(b,c,a=5):
+C
+def test(c,a=5,b):
+D
+def test(b=1,c,a=5):
+Correct Answer: B. def test(b,c,a=5):
+
+Question 10 1 Mark
+Which of the following is the right statement for including the use of functions in the random library?
+
+A
+import random
+B
+random.random
+C
+import.random
+D
+random()
+Correct Answer: A. import random
+
+Question 11 2 Marks
+Which type of operands are permitted with logical operators?
+
+A
+Numeric
+B
+Boolean
+C
+String
+D
+All three - Numeric, Boolean and String
+Correct Answer: D. All three - Numeric, Boolean and String
+
+Question 12 3 marks
+Displayed below are two representations of the package, MyFriends. Which of them accurately represents the location of the setup file?
+
+A
+|1MyFriends
+|      |1MyFriends
+|      |     |1food
+|      |     |1movie
+|      |     | __init__.py
+|      |     | setup.py
+B
+|1MyFriends
+|      |1MyFriends
+|      |     |1food
+|      |     |1movie
+|      |     |__init__.py
+|      | setup.py
+Correct Answer: B. |1MyFriends
+|      |1MyFriends
+|      |     |1food
+|      |     |1movie
+|      |     |__init__.py
+|      | setup.py
+
+Question 13 1 Mark
+What is the result of the following statement? 
+10>20 and 35>25
+
+A
+True
+B
+False
+Correct Answer: B. False
+
+Question 14 2 Marks
+What is the output of the following code snippet? 
+
+for x in range(20,30,3): 
+    print(x)
+
+A
+21
+24
+27
+30
+B
+20,30
+20,30
+20,30
+C
+20
+23
+26
+29
+Correct Answer: C. 20
+23
+26
+29
+
+Question 15 3 marks
+Which of the following statements will be executed by the Python interpreter without error?
+
+A
+if age>=18
+    print (“You are eligible to vote”) 
+else
+    print (“You are not eligible to vote”)
+B
+if age>=18:
+     print (“You are eligible to vote”) 
+else
+    print (“You are not eligible to vote”)
+C
+if age>=18: 
+    print (“You are eligible to vote”) 
+else: 
+    print (“You are not eligible to vote”)
+Correct Answer: C. if age>=18: 
+    print (“You are eligible to vote”) 
+else: 
+    print (“You are not eligible to vote”)

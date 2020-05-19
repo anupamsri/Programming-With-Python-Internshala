@@ -1,0 +1,182 @@
+CHOOSE MODULE
+
+Introduction to Pyth...
+Installation of Python
+Using the Python Interpre...
+Salient Features of Pytho...
+Basic Syntax of Python
+  Basic Syntax of Python
+  Keywords Used in Python
+  Indents
+  Summary
+Module Test
+Go to progress report
+ Logout
+ Copyright 2019 Internshala
+Menu
+Module Test
+Score: 100%
+
+No. of questions: 10Correct answer: 10Incorrect answer: 0
+Show incorrect attempt only 
+
+Question 1 1 Mark
+Is the following statement true or false?
+
+Dynamic Typing is a feature of Python.
+
+A
+True
+B
+False
+Correct Answer: A. True
+
+Question 2 2 Marks
+What will you see if you type a = 12 * 2 and press Enter in IDLE?
+
+A
+24
+B
+144
+C
+Nothing
+D
+Error
+Correct Answer: C. Nothing
+
+Question 3 3 marks
+Which of the following statements is False?
+
+A
+Parentheses are mandatory with the print function in Python 3.x but not in Python 2.x.
+B
+The raw_input() function has been deprecated (discontinued) in Python 3.x.
+C
+Integer objects are long by default in Python 3.x but not in Python 2.x in which a trailing L is required.
+D
+In Python 3.x, 5/2 will result in an output of 2.
+Correct Answer: D. In Python 3.x, 5/2 will result in an output of 2.
+
+Question 4 1 Mark
+The result of 36%5 is:
+
+A
+1
+B
+7
+C
+7.2
+D
+1.75
+Correct Answer: A. 1
+
+Question 5 2 Marks
+Is the following statement true or false?
+
+Python is a compiler-based language.
+
+A
+True
+B
+False
+Correct Answer: B. False
+
+Question 6 3 marks
+What is the correct command for displaying all the Python keywords?
+
+A
+>>> import keyword
+>>> keyword.kwlist
+B
+>>> keyword.python
+C
+>>> import keyword.kwlist
+>>> keyword.python
+D
+>>> import .keyword.kwlist
+Correct Answer: A. >>> import keyword
+>>> keyword.kwlist
+
+Question 7 1 Mark
+Given the following code in IDLE, what will you see after you type print(a,b,b) and press Enter? 
+
+>>> a=2
+>>>b=3
+>>>print(a,b,b) 
+
+A
+18
+B
+a b b
+C
+2 3 3
+D
+Error
+Correct Answer: C. 2 3 3
+
+Question 8 2 Marks
+What will you see if you type 19-4*5 and press Enter in IDLE?
+
+A
+759375
+B
+-1
+C
+75
+D
+Error
+Correct Answer: B. -1
+
+Question 9 3 marks
+There are some syntax errors in the displayed program. Of the options displayed, select the option which is the correct version of this program.
+
+#The purpose of this
+program is to display some text. #
+
+print ("Hello World") 
+print ("Welcome to Internshala") #Author Internshala
+
+A
+#The purpose of this
+program is to display some text. #
+
+print (Hello World)
+print (Welcome to Internshala) #Author Internshala
+B
+#The purpose of this
+#program is to display some text.
+
+print ("Hello World")
+print ("Welcome to Internshala") #Author Internshala
+C
+#
+The purpose of this
+program is to display some text. 
+#
+
+print ("Hello World")
+print ("Welcome to Internshala") #Author Internshala
+Correct Answer: B. #The purpose of this
+#program is to display some text.
+
+print ("Hello World")
+print ("Welcome to Internshala") #Author Internshala
+
+Question 10 1 Mark
+Which syntax element is used to define a code block? (A code block is a group of statements that, together, perform a task.)
+
+A
+Comment
+B
+Triple Quotes, """ """
+C
+Indent
+D
+Curly brackets, { }
+Correct Answer: C. Indent
+
+Prev
+Text Chapter
+
+Next
+Video 
