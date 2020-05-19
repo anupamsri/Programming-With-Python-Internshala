@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+	<property name="geometry">
+	 <rect>
+		<x>0</x>
+		<y>0</y>
+		<width>500</width>
+		<height>400</height>
+	 </rect>
+	</property>
+	<property name="windowTitle">
+	 <string>Dialog</string>
+	</property>
+	<layout class="QVBoxLayout" name="verticalLayout">
+	 <property name="leftMargin">
+		<number>25</number>
+	 </property>
+	 <property name="rightMargin">
+		<number>25</number>
+	 </property>
+	 <item>
+		<layout class="QHBoxLayout" name="horizontalLayout">
+		 <item>
+			<widget class="QLabel" name="label_2">
+			 <property name="font">
+				<font>
+				 <family>Tahoma</family>
+				 <pointsize>10</pointsize>
+				</font>
+			 </property>
+			 <property name="text">
+				<string>Choose Team</string>
+			 </property>
+			</widget>
+		 </item>
+		 <item>
+			<widget class="QComboBox" name="cb0">
+			 <property name="font">
+				<font>
+				 <family>Tahoma</family>
+				 <pointsize>10</pointsize>
+				</font>
+			 </property>
+			</widget>
+		 </item>
+		 <item>
+			<widget class="QLabel" name="label">
+			 <property name="font">
+				<font>
+				 <family>Tahoma</family>
+				 <pointsize>10</pointsize>
+				</font>
+			 </property>
+			 <property name="text">
+				<string>Choose Match</string>
+			 </property>
+			</widget>
+		 </item>
+		 <item>
+			<widget class="QComboBox" name="cb1">
+			 <property name="font">
+				<font>
+				 <family>Tahoma</family>
+				 <pointsize>10</pointsize>
+				</font>
+			 </property>
+			 <item>
+				<property name="text">
+				 <string>Match1</string>
+				</property>
+			 </item>
+			</widget>
+		 </item>
+		</layout>
+	 </item>
+	 <item>
+		<widget class="Line" name="line">
+		 <property name="font">
+			<font>
+			 <family>Tahoma</family>
+			 <pointsize>10</pointsize>
+			</font>
+		 </property>
+		 <property name="orientation">
+			<enum>Qt::Horizontal</enum>
+		 </property>
+		</widget>
+	 </item>
+	 <item>
+		<layout class="QHBoxLayout" name="horizontalLayout_4">
+		 <item>
+			<widget class="QLabel" name="label_5">
+			 <property name="font">
+				<font>
+				 <family>Tahoma</family>
+				 <pointsize>10</pointsize>
+				 <weight>75</weight>
+				 <bold>true</bold>
+				</font>
+			 </property>
+			 <property name="text">
+				<string>Players</string>
+			 </property>
+			 <property name="alignment">
+				<set>Qt::AlignCenter</set>
+			 </property>
+			</widget>
+		 </item>
+		 <item>
+			<widget class="QLabel" name="label_4">
+			 <property name="font">
+				<font>
+				 <family>Tahoma</family>
+				 <pointsize>10</pointsize>
+				 <weight>75</weight>
+				 <bold>true</bold>
+				</font>
+			 </property>
+			 <property name="text">
+				<string>Score</string>
+			 </property>
+			 <property name="alignment">
+				<set>Qt::AlignCenter</set>
+			 </property>
+			</widget>
+		 </item>
+		</layout>
+	 </item>
+	 <item>
+		<widget class="Line" name="line_2">
+		 <property name="font">
+			<font>
+			 <family>Tahoma</family>
+			 <pointsize>10</pointsize>
+			</font>
+		 </property>
+		 <property name="orientation">
+			<enum>Qt::Horizontal</enum>
+		 </property>
+		</widget>
+	 </item>
+	 <item>
+		<layout class="QHBoxLayout" name="horizontalLayout_2">
+		 <item>
+			<widget class="QListWidget" name="lw1">
+			 <property name="font">
+				<font>
+				 <family>Tahoma</family>
+				 <pointsize>10</pointsize>
+				 <weight>75</weight>
+				 <bold>true</bold>
+				</font>
+			 </property>
+			</widget>
+		 </item>
+		 <item>
+			<spacer name="horizontalSpacer">
+			 <property name="font">
+				<font>
+				 <family>Tahoma</family>
+				 <pointsize>10</pointsize>
+				</font>
+			 </property>
+			 <property name="orientation">
+				<enum>Qt::Horizontal</enum>
+			 </property>
+			 <property name="sizeHint" stdset="0">
+				<size>
+				 <width>200</width>
+				 <height>20</height>
+				</size>
+			 </property>
+			</spacer>
+		 </item>
+		 <item>
+			<widget class="QListWidget" name="lw2">
+			 <property name="font">
+				<font>
+				 <family>Tahoma</family>
+				 <pointsize>10</pointsize>
+				 <weight>75</weight>
+				 <bold>true</bold>
+				</font>
+			 </property>
+			</widget>
+		 </item>
+		</layout>
+	 </item>
+	 <item>
+		<widget class="Line" name="line_3">
+		 <property name="font">
+			<font>
+			 <family>Tahoma</family>
+			 <pointsize>10</pointsize>
+			</font>
+		 </property>
+		 <property name="orientation">
+			<enum>Qt::Horizontal</enum>
+		 </property>
+		</widget>
+	 </item>
+	 <item>
+		<layout class="QHBoxLayout" name="horizontalLayout_3">
+		 <item>
+			<widget class="QPushButton" name="pushButton">
+			 <property name="font">
+				<font>
+				 <family>Tahoma</family>
+				 <pointsize>10</pointsize>
+				</font>
+			 </property>
+			 <property name="text">
+				<string>Evaluate Score</string>
+			 </property>
+			</widget>
+		 </item>
+		 <item>
+			<spacer name="horizontalSpacer_2">
+			 <property name="font">
+				<font>
+				 <family>Tahoma</family>
+				 <pointsize>10</pointsize>
+				</font>
+			 </property>
+			 <property name="orientation">
+				<enum>Qt::Horizontal</enum>
+			 </property>
+			 <property name="sizeType">
+				<enum>QSizePolicy::Fixed</enum>
+			 </property>
+			 <property name="sizeHint" stdset="0">
+				<size>
+				 <width>150</width>
+				 <height>20</height>
+				</size>
+			 </property>
+			</spacer>
+		 </item>
+		 <item>
+			<widget class="QLabel" name="scorelabel">
+			 <property name="font">
+				<font>
+				 <family>Tahoma</family>
+				 <pointsize>10</pointsize>
+				 <weight>75</weight>
+				 <bold>true</bold>
+				</font>
+			 </property>
+			 <property name="text">
+				<string>00</string>
+			 </property>
+			</widget>
+		 </item>
+		</layout>
+	 </item>
+	</layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
